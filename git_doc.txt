@@ -1,7 +1,7 @@
 
 abdallah@DESKTOP-FE24SDC MINGW64 ~/Desktop/test_git (master)
 $ touch .gitignore
-
+----------------------------------------------------------------------------------
 abdallah@DESKTOP-FE24SDC MINGW64 ~/Desktop/test_git (master)
 $ git status
 On branch master
@@ -11,60 +11,20 @@ Untracked files:
         .gitignore
 
 nothing added to commit but untracked files present (use "git add" to track)
-
-abdallah@DESKTOP-FE24SDC MINGW64 ~/Desktop/test_git (master)
-$ touch log.txt
-
-abdallah@DESKTOP-FE24SDC MINGW64 ~/Desktop/test_git (master)
-$ git status
-On branch master
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-
-        .gitignore
-        log.txt
-
-nothing added to commit but untracked files present (use "git add" to track)
-
-abdallah@DESKTOP-FE24SDC MINGW64 ~/Desktop/test_git (master)
-$ git add log.txt
-
+----------------------------------------------------------------------------------
 abdallah@DESKTOP-FE24SDC MINGW64 ~/Desktop/test_git (master)
 $ git commit -m "fichier text"
 [master e263263] fichier text
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 log.txt
-
-abdallah@DESKTOP-FE24SDC MINGW64 ~/Desktop/test_git (master)
-$ git checkout
-
-abdallah@DESKTOP-FE24SDC MINGW64 ~/Desktop/test_git (master)
-$ git merge
-fatal: No remote for the current branch.
-
-abdallah@DESKTOP-FE24SDC MINGW64 ~/Desktop/test_git (master)
-$ git remote
-
-abdallah@DESKTOP-FE24SDC MINGW64 ~/Desktop/test_git (master)
-$
-
-abdallah@DESKTOP-FE24SDC MINGW64 ~/Desktop/test_git (master)
-$
-
+-----------------------------------------------------------------------------------
 abdallah@DESKTOP-FE24SDC MINGW64 ~/Desktop/test_git (master)
 $ git remote add origin https://github.com/Abdallah-10/test_git.git
-
+-----------------------------------------------------------------------------------
 abdallah@DESKTOP-FE24SDC MINGW64 ~/Desktop/test_git (master)
 $ git remote
 origin
-
-abdallah@DESKTOP-FE24SDC MINGW64 ~/Desktop/test_git (master)
-$ git push -u origin master
-Logon failed, use ctrl+c to cancel basic credential prompt.
-Username for 'https://github.com': Abdallah-10
-remote: Invalid username or password.
-fatal: Authentication failed for 'https://github.com/Abdallah-10/test_git.git/'
-
+------------------------------------------------------------------------------------
 abdallah@DESKTOP-FE24SDC MINGW64 ~/Desktop/test_git (master)
 $ git push -u origin master
 Enumerating objects: 8, done.
@@ -77,42 +37,4 @@ remote: Resolving deltas: 100% (1/1), done.
 To https://github.com/Abdallah-10/test_git.git
  * [new branch]      master -> master
 Branch 'master' set up to track remote branch 'master' from 'origin'.
-
-abdallah@DESKTOP-FE24SDC MINGW64 ~/Desktop/test_git (master)
-$ git status
-On branch master
-Your branch is up to date with 'origin/master'.
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-
-        .gitignore
-
-nothing added to commit but untracked files present (use "git add" to track)
-
-abdallah@DESKTOP-FE24SDC MINGW64 ~/Desktop/test_git (master)
-$ git add .gitignore
-
-abdallah@DESKTOP-FE24SDC MINGW64 ~/Desktop/test_git (master)
-$ git commit -m "dernier add"
-[master 8ee57d4] dernier add
- 1 file changed, 0 insertions(+), 0 deletions(-)
- create mode 100644 .gitignore
-
-abdallah@DESKTOP-FE24SDC MINGW64 ~/Desktop/test_git (master)
-$ git push
-Enumerating objects: 3, done.
-Counting objects: 100% (3/3), done.
-Delta compression using up to 4 threads
-Compressing objects: 100% (2/2), done.
-Writing objects: 100% (2/2), 282 bytes | 141.00 KiB/s, done.
-Total 2 (delta 0), reused 0 (delta 0)
-To https://github.com/Abdallah-10/test_git.git
-   e263263..8ee57d4  master -> master
-
-abdallah@DESKTOP-FE24SDC MINGW64 ~/Desktop/test_git (master)
-$ git pull
-Already up to date.
-
-abdallah@DESKTOP-FE24SDC MINGW64 ~/Desktop/test_git (master)
-$
+---------------------------------------------------------------------------------------
